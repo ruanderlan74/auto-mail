@@ -1,0 +1,183 @@
+.input-group {
+    position: relative;
+    display: flex;
+    border-collapse: separate;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: -1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.input-group-append {
+    margin-left: -1px;
+}
+.input-group-append, .input-group-prepend {
+    display: flex;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.menu{
+    background-color:  black;
+}
+
+.title-menu{
+    color: white!important;
+    font-size: 28px !important;
+    margin-left: 3%;
+}
+
+.contato-menu{
+    margin-left: 10%;
+}
+.no-padding{
+padding: 0!important;
+}
+.botao-incio{
+    background-color: #333333de!important;
+    border-color:#333333de!important;
+    font-size: 2.5rem !important;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: white;
+}
+.botao-incio:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.botao-sair{
+    background-color: #333333de!important;
+    border-color:#333333de!important;
+    font-size: 1rem !important;
+    padding: 0.55rem 0.75rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: white;
+}
+.botao-sair:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.botao-contato{
+    background-color: #333 !important;
+    border-color: #333 !important;
+
+}
+
+.card-tela-principal{
+    border: 1px solid rgb(181, 171, 171) !important;
+    height: 110px;
+    width: 70%;
+    left: 15%;
+    margin-top: 4%;
+}
+.botoes-tela-principal{
+    align-self: center;
+}
+.bs-tooltip-auto[x-placement^=top], .bs-tooltip-top {
+    padding: .4rem 0;
+}
+.tooltip {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4 !important;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    white-space: normal;
+    line-break: auto;
+    font-size: .8rem !important;
+    word-wrap: break-word;
+    opacity: 1;
+}
+.tooltip-inner {
+    max-width: 137px;
+    padding: .23rem 0.3rem !important; 
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: .25rem;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 11% !important;
+    margin-left: auto;
+}
+.alert-danger {
+    color: #f8f9fa !important;
+    background-color: #E74C3C !important;
+    border-color: #E74C3C !important;
+    border-radius: 0 !important;
+}
+
+.alerta{
+    position: fixed;
+    background: rgba(42,45,50,0.85);
+    padding: 22px;
+    line-height: 1.4;
+    z-index: 1000;
+    pointer-events: none;
+    color: rgba(250,251,255,0.95);
+    font-size: 100%;
+    font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    max-width: 300px;
+    -webkit-transition: top .4s, bottom .4s;
+    transition: top .4s, bottom .4s;
+    pointer-events: auto;
+    background: #ffffff00;
+    color: #fff;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    bottom: auto;
+    left: auto;
+}
+.alerta-tela-inicial{
+    position: fixed;
+    background: rgba(42,45,50,0.85);
+    padding: 22px;
+    line-height: 1.4;
+    z-index: 1000;
+    pointer-events: none;
+    color: rgba(250,251,255,0.95);
+    font-size: 100%;
+    font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    max-width: 300px;
+    -webkit-transition: top .4s, bottom .4s;
+    transition: top .4s, bottom .4s;
+    pointer-events: auto;
+    background: #E74C3C;
+    color: #fff;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    bottom: auto;
+    left: auto;
+}
